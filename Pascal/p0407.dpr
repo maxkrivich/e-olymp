@@ -1,8 +1,6 @@
 program p407;
 {$APPTYPE CONSOLE}
-
-uses
-  SysUtils;
+uses SysUtils;
 
 procedure Swap(var str: string; a, b: integer);
 var
@@ -12,6 +10,7 @@ begin
   str[a] := str[b];
   str[b] := tmp;
 end;
+
 var
   s: string;
   n, m, i, j: Integer;
@@ -29,5 +28,4 @@ begin
     Writeln(s);
     s := 'GCV';
     end;
-  //readln;
 end.
