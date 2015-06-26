@@ -8,4 +8,4 @@ public class Main {
         BigInteger a=new BigInteger(in.next().trim(),2);
         System.out.println(a.add(new BigInteger(in.next().trim(),2)).toString(2));
     }
-}
+} 
