@@ -1,2 +1,0 @@
-# E-olimp
-My solutions
