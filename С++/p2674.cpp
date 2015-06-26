@@ -18,7 +18,7 @@ int main(){
 		cout << "-";
 	}
 	int* tmp = new int(GCD(*a, *b));
-	cout << *a / *tmp<<" " << abs(*b / *tmp)<<"\n";
+	cout << *a / *tmp<<" " << *b / *tmp<<"\n";
 	delete a, b, tmp;
 	return 0;
 }
