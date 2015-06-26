@@ -1,2 +1,2 @@
-# E_olimp
+# E-olimp
 My solutions
