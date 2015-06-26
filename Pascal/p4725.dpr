@@ -1,4 +1,4 @@
-program p4723;
+program p4725;
 {$APPTYPE CONSOLE}
 uses SysUtils;
 
