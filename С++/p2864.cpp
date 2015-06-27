@@ -12,5 +12,5 @@ int main(){
 		printf("%.3lf %.3lf\n",a, fun(a));
 		a += h;
 	}
- return 0;
+    return 0;
 }
