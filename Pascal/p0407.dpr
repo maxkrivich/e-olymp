@@ -27,5 +27,5 @@ begin
     end;
     Writeln(s);
     s := 'GCV';
-    end;
+  end;
 end.
