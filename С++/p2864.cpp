@@ -8,9 +8,9 @@ double fun(double x){
 int main(){
 	double a, b, h;
 	std::cin >> a >> b >> h;
-	for (int i= a; a <= b;i++){
-		printf("%.3lf %.3lf\n",a, fun(a));
+	for (int i = a; a <= b; i++){
+		printf("%.3lf %.3lf\n", a, fun(a));
 		a += h;
 	}
-    return 0;
+	return 0;
 }
