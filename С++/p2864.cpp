@@ -8,7 +8,7 @@ double fun(double x){
 int main(){
 	double a, b, h;
 	std::cin >> a >> b >> h;
-	for (int i = a; a <= b; i++){
+	while (a <= b){
 		printf("%.3lf %.3lf\n", a, fun(a));
 		a += h;
 	}
