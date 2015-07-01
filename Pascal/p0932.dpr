@@ -11,3 +11,4 @@ begin
   h := (-a + sqrt(d)) / 2;
   writeln(h: 0: 2);
 end.
+ 
