@@ -7,4 +7,4 @@ int main(){
 	cin >> n;
 	cout << 145 - n << "\n";
 	return 0;
-}
+} 
