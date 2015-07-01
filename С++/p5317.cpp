@@ -8,4 +8,4 @@ int main(){
 	(*a % 2 == 1) ? std::cout << "1\n" : std::cout << "0\n";
 	delete a, k;
 	return 0;
-}
+} 
