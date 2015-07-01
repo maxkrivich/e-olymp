@@ -12,3 +12,4 @@ begin
     10, 11, 12: writeln('High');
   end;
 end.
+ 
