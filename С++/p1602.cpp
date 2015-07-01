@@ -15,4 +15,4 @@ int main(){
 	cin >> a >> b;
 	cout << LCM(a, b) << "\n";
 	return 0;
-}
+} 
