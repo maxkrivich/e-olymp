@@ -22,3 +22,4 @@ int main(){
 	delete a, b, tmp;
 	return 0;
 }
+ 
