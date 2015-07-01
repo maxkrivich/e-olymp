@@ -18,3 +18,4 @@ begin
    Inc(cnt);
    Writeln(cnt);
 end.
+ 
