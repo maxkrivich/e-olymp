@@ -22,3 +22,4 @@ begin
   end;
   Writeln(max + min);
 end.
+ 
