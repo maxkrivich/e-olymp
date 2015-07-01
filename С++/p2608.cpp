@@ -10,4 +10,4 @@ int main(){
 	(*sqr == *sq) ? std::cout << "I=" << *sqr << "\n" : std::cout << *sqr << "<I<" << *sqr + 1 << "\n";
 	delete n, sq, sqr;
 	return 0;
-}
+} 
