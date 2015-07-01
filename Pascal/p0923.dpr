@@ -12,3 +12,4 @@ begin
     6, 7, 8: Writeln('Summer');
   end;
 end.
+ 
