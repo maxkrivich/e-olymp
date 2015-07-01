@@ -12,3 +12,4 @@ begin
     sum := sum + i * i;
   writeln(sum);
 end.
+ 
