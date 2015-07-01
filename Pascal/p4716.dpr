@@ -8,3 +8,4 @@ begin
   readln(n, k);
   writeln(k div n);
 end.
+ 
