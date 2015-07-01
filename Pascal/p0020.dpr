@@ -22,4 +22,4 @@ begin
     inc(cnt);
   end;
   writeln(cnt);
-end.
+end. 
