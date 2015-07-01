@@ -18,3 +18,4 @@ begin
   end;
   Writeln(mul / sum: 0: 3);
 end.
+  
