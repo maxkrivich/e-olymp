@@ -6,4 +6,4 @@ int main(){
 	std::cout << (1 << *n) << "\n";
 	delete n;
 	return 0;
-}
+} 
