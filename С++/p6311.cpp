@@ -8,4 +8,4 @@ int main(){
 	n = n >> k;
 	(n % 2 == 1) ? cout << "YES\n" : cout << "NO\n";
 	return 0;
-}
+} 
