@@ -19,3 +19,4 @@ int main(){
 	delete a, b, c;
 	return 0;
 }
+ 
