@@ -8,3 +8,4 @@ begin
   readln(name);
   writeln('Hello, ', name);
 end.
+ 
