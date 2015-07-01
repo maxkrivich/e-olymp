@@ -7,4 +7,4 @@ int main(){
 	std::cout << ((1 << *n) | (1 << *m)) << "\n";
 	delete n, m;
 	return 0;
-}
+} 
