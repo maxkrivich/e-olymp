@@ -21,4 +21,4 @@ int main(){
 	}
 	delete num;
 	return 0;
-}
+} 
