@@ -9,3 +9,4 @@ begin
   n := k mod n;
   writeln(round(n));
 end.
+ 
