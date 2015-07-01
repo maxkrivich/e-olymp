@@ -24,4 +24,4 @@ int main(){
 			cout << (arr[0] - '0') - (arr[2] - '0') << "\n";
 	}
 	return 0;
-}
+} 
