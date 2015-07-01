@@ -11,3 +11,4 @@ int main(){
 	delete a, b;
 	return 0;
 }
+ 
