@@ -2,7 +2,7 @@ program p5;
 {$APPTYPE CONSOLE}
 uses
   SysUtils;
-
+ 
 var
   k: integer;
 begin
