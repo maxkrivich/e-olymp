@@ -10,3 +10,4 @@ begin
   writeln(a div 10, ' ', a mod 10);
 end.
 
+ 
