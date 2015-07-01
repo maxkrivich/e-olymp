@@ -18,4 +18,4 @@ int main(){
 	cout << *sum << "\n";
 	delete a, b, sum;
 	return 0;
-}
+} 
