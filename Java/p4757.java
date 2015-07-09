@@ -10,7 +10,6 @@ public class Main {
             System.out.println("YES");
          else 
             System.out.println("NO");
-        
     }
 
     private static boolean isDivisible(BigInteger a, String s) {
