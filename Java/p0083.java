@@ -13,9 +13,8 @@ public class Main {
 
     public static String bin(String[] ns, int d) {
         String tmp = "";
-        for (String s : ns) {
+        for (String s : ns) 
             tmp += new BigInteger(s).toString(d) + "/";
-        }
         return tmp.substring(0, tmp.length() - 1).toUpperCase();
     }
 
