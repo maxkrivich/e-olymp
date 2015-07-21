@@ -1,4 +1,4 @@
-program Project1;
+program p1955;
 {$APPTYPE CONSOLE}
 
 uses SysUtils;
