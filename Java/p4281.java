@@ -6,7 +6,6 @@ public class Main {
         while (in.hasNextLine()) 
             System.out.println(getConvertString(in.nextLine().toCharArray()));
         in.close();
-
     }
 
     private static String getConvertString(char[] arr) {
