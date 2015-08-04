@@ -22,6 +22,5 @@ int main(){
 		else
 			printf("%d\n", getSum(n));
 	}
-	system("pause");
 	return 0;
 }
