@@ -6,22 +6,22 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (in.hasNextLine()) {
-            String code = in.nextLine();
-            if (code.contains("->")) {
-                if (code.contains("//")) {
-                    System.out.printf("%s\n", getNewString(code));
+            String singleLine = in.nextLine();
+            if (singleLine.contains("->")) {
+                if (singleLine.contains("//")) {
+                    System.out.printf("%s\n", getNewString(singleLine));
                 } else {
-                    System.out.printf("%s\n", code.replaceAll("->", "."));
+                    System.out.printf("%s\n", singleLine.replaceAll("->", "."));
                 }
             } else {
-                System.out.printf("%s\n", code);
+                System.out.printf("%s\n", singleLine);
             }
         }
         in.close();
     }
 
-    private static String getNewString(final String code) {
-        return (code.indexOf("->") > code.indexOf("//")) ? code : code.substring(0, code.indexOf("//")).replaceAll("->", ".") + code.substring(code.indexOf("//"));
+    private static String getNewString(final String line) {
+        return (line.indexOf("->") > line.indexOf("//")) ? line : line.substring(0, line.indexOf("//")).replaceAll("->", ".").concat(line.substring(line.indexOf("//")));
     }
 
 }
