@@ -1,13 +1,13 @@
-include <iostream>
-using std::cin;
-using std::cout;
+#include <iostream>
 
+using namespace std;
 
-int main(){
-	int* a = new int;
-	int* k = new int;
-	cin >> *a >> *k;
-	cout << (int)(*a & ~(1 << *k)) << "\n";
-	delete a, k;
+int main() 
+{
+	ios_base::sync_with_stdio(0);
+	int a, k;
+	cin >> a >> k;
+	cout << (int)(a & ~(1 << k)) << endl;
 	return 0;
+	
 }
