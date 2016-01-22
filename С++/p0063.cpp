@@ -1,13 +1,12 @@
 #include <iostream>
-using std::cin;
-using std::cout;
 
-int main(){
-	__int64* n = new __int64;
-	__int64* m = new __int64;
-	cin >> *n >> *m;
-	cout << (*n - 1) * (*m - 1) + 1 << "\n";
-	delete n, m;
+using namespace std;
+
+int main() 
+{
+	ios_base::sync_with_stdio(0);
+	long long n, m;
+	cin >> n >> m;
+	cout << (n - 1) * (m - 1) + 1 << endl;
 	return 0;
 }
- 
