@@ -1,13 +1,15 @@
 #include <iostream>
-using std::cin;
-using std::cout;
 
-int main(){
+using namespace std;
+
+int main()
+{
 	double k, l;
 	cin >> l >> k;
 	int cnt = 0;
 	l /= k;
-	while (l > 1){
+	while (l > 1)
+	{
 		l /= k;
 		++cnt;
 	}
