@@ -1,31 +1,36 @@
 #include <iostream>
-using std::cin;
-using std::cout;
+#include <climits>
 
-int getSumDigit(int n){
+using namespace std;
+
+
+int getSumDigit(int n) 
+{
 	int sum = 0;
-	while (n != 0){
+	while (n != 0) 
+	{
 		sum += n % 10;
 		n /= 10;
 	}
 	return sum;
 }
 
-int main(){
-	int* a = new int;
-	int* b = new int;
-	cin >> *a >> *b;
+int main() 
+{
+	ios_base::sync_with_stdio(0);
+	int a, b, cnt = 0;
+	cin >> a >> b;
 	int min = INT_MAX;
-	int cnt = 0;
-	for (int i = *a; i <= *b; i++){
-		if (getSumDigit(i) < min){
-			min = getSumDigit(i);
+	for (; a <= b; a++) 
+	{
+		if (getSumDigit(a) < min) 
+		{
+			min = getSumDigit(a);
 			cnt = 1;
 		}
-		else if (getSumDigit(i) == min)
+		else if (getSumDigit(a) == min)
 			cnt++;
 	}
-	cout << cnt << "\n";
-	delete a, b;
+	cout << cnt << endl;
 	return 0;
 }
